@@ -16,7 +16,7 @@ import streamlit as st
 import plotly.express as px
 
 # Chargement des données
-data = pd.read_csv("/data/ds_salaries.csv")
+data = pd.read_csv("data/ds_salaries.csv")
 
 
 def main():
